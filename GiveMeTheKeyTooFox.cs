@@ -56,6 +56,14 @@ namespace GiveMeTheKeyTooFox
 
                         closestPlayer.Notify("CoPropiétaire ajouté",
                             $"Vous avez reçus la copropriété du véhicule : {closestVehicle.plate}");
+
+                        player.setup.TargetPlayClairon(60);
+
+                        foreach (var aroundPlayer in Nova.closestPlayers)
+                        {
+                            aroundPlayer.CmdSendText(player.GetFullName() + " a donné un double des clefs à " + closestPlayer.GetFullName());
+                        }
+                        
                     } else
                     {
                         player.Notify("Erreur", "Le véhicule ne vous appartient pas.", NotificationManager.Type.Error);
