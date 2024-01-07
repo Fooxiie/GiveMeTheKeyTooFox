@@ -4,7 +4,7 @@
 # To contribute and motivate myself:
 BuyMeACoffee : https://www.buymeacoffee.com/devfooxiie
 
-Discord : https://discord.gg/u3XuSFQDNh
+Discord : [https://discord.gg/aztFmNxEqp](https://discord.gg/aztFmNxEqp)
 
 # Installation
  Copy the .dll file in your plugins folder. A this moment stop and restart your server and it's done.
